@@ -1,0 +1,114 @@
+@media screen and (max-width:767px){
+    header{
+        .wrapper{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+    main{
+        .main__title{
+            .wrap-left{
+                flex-basis: 100%;
+                background-image: url(../img/wrap-right.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .wrap-right{
+                display: none;
+            }
+        }
+    }
+    .features{
+    background-attachment: scroll;
+        .wrapper{
+            padding-bottom: 130px;
+            .section__features{
+                flex-direction: column;
+                .card-item{
+                    margin: 0px auto 40px auto;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .review{
+        .wrapper{
+            .section__review{  
+                flex-direction: column;
+                .review-item{
+                    max-width: 100%;
+                    margin-top: 40px;
+                }
+            }
+            .section__icons{
+                flex-direction: column;
+                .icon-item{
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    footer{
+        .wrapper{
+            margin-left: 0;
+            max-width: 100%;
+            .footer__info{
+                flex-direction: column;
+                text-align: center;
+                h3{
+                    margin-top: 30px;
+                }
+                .footer__info-block1{
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .footer__info-block2{
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .footer__info-block3{
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .footer__info-block4{
+                    width: 90%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1140px){
+    .design{
+        .wrapper{
+            .section__design{
+                flex-direction: column;
+                text-align: center;
+                .design-title{
+                    padding-left: 0px;
+                    .prefix{
+                        margin-top: 40px;
+                        color: $p-clr;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .wrapper{
+            .section__contact{
+                .contact-buttons{
+                    flex-direction: column;
+                    .buttons-item{
+                        margin: 0 auto;
+                        margin-bottom: 40px;
+                    }
+                    button{
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Exo Thin";
+  src: url("../fonts/exothin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Exo Medium";
+  src: url("../fonts/exomedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Exo";
+  src: url("../fonts/exoregular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*# sourceMappingURL=fonts.css.map */
